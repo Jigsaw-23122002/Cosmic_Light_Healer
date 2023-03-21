@@ -122,8 +122,6 @@ export default function Footer() {
           Light Healer.
         </div>
       </Container>
-      {/* Do not remove this */}
-      <Backlink />
     </div>
   );
 }
