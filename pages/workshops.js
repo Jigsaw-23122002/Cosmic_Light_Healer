@@ -1,7 +1,7 @@
 import React from "react";
 
 function Workshops() {
-  return <div>Workshops</div>;
+  return <div></div>;
 }
 
 export default Workshops;
