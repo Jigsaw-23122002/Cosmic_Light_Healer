@@ -20,6 +20,7 @@ export default function Benefits(props) {
               alt="Benefits"
               layout="intrinsic"
               placeholder="blur"
+              className="rounded-xl"
             />
           </div>
         </div>
@@ -40,11 +41,11 @@ export default function Benefits(props) {
             </div>
 
             <div className="w-full mt-5">
-              {data.bullets.map((item, index) => (
+              {/* {data.bullets.map((item, index) => (
                 <Benefit key={index} title={item.title} icon={item.icon}>
                   {item.desc}
                 </Benefit>
-              ))}
+              ))} */}
             </div>
           </div>
         </div>
