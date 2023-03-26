@@ -34,8 +34,8 @@ const benefitOne = {
 };
 
 const benefitTwo = {
-  title: "Business Partner",
-  desc: "Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Mauris ultrices eros in cursus turpis. Donec massa sapien faucibus et molestie ac feugiat. At ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget. Amet purus gravida quis blandit turpis cursus in. Ac orci phasellus egestas tellus rutrum tellus. In arcu cursus euismod quis viverra nibh cras pulvinar mattis. Accumsan in nisl nisi scelerisque eu ultrices. Porttitor massa id neque aliquam vestibulum morbi blandit cursus risus. Sed arcu non odio euismod lacinia at quis. Commodo quis imperdiet massa tincidunt nunc. Iaculis eu non diam phasellus vestibulum. Amet nulla facilisi morbi tempus iaculis urna id volutpat lacus. Velit sed ullamcorper morbi tincidunt ornare. Nunc non blandit massa enim. Metus dictum at tempor commodo ullamcorper a lacus vestibulum sed.",
+  title: "Vinu",
+  desc: "A Yogi and a Warrior. Being of a very different and high energy intensity at young age, he was drawn towards Martial arts, Thai chi and Yoga. This made him experience the importance of mind, body and soul alignment through continuous practices of 22 years. He further accomplished the masters degree in Yoga but it did not satisfied his quest for answers. While surfing through the hard waves of life he was turned inward. He became an ardent spiritual seeker. As he says by the blessings of divine mother and masters, he walked through different paths being blessed and accepted by masters of different traditions. He experienced the real essence of these paths inside himself through initiations into secret practices. On the physical dimension wisdom of many lineages and masters operate through him. He channelizes the energy of cosmos through the healings, meditations and spiritual teachings.",
   image: benefitTwoImg,
   bullets: [
     {

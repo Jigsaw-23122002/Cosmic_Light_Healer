@@ -18,11 +18,11 @@ export default function Navbar() {
                   <a className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
                     <span>
                       <img
-                        src="/img/logo.svg"
+                        src="/img/logo1.png"
                         alt="N"
-                        width="32"
-                        height="32"
-                        className="w-8"
+                        width="50"
+                        height="50"
+                        className="rounded-full"
                       />
                     </span>
                     <span>Cosmic Light Healer</span>

@@ -11,7 +11,9 @@ function AboutUs() {
         title=""
       ></SectionTitle>
       <Benefits data={benefitOne} />
+      <div className="px-5">
       <Benefits imgPos="right" data={benefitTwo} />
+      </div>
     </div>
   );
 }

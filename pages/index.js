@@ -9,12 +9,10 @@ export default function Home() {
     <>
       <Hero />
       <SectionTitle
-        pretitle="Watch a video"
-        title="Learn how to fullfil your needs"
+        pretitle="Watch  video"
+        title="Learn how we work"
       >
-        This section is to highlight a promo or demo video of your product.
-        Analysts says a landing page with video has 3% more conversion rate. So,
-        don't forget to add one. Just like this.
+        demo video about cosmic light healer
       </SectionTitle>
       <Video />
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
