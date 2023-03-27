@@ -1,7 +1,7 @@
 import React from "react";
 
-function Workshops() {
+function Event() {
   return <div></div>;
 }
 
-export default Workshops;
+export default Event;

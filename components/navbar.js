@@ -1,6 +1,8 @@
 import Link from "next/link";
+import Image from "next/image";
 import ThemeChanger from "./DarkSwitch";
 import { Disclosure } from "@headlessui/react";
+import Logo from "../public/img/logo.png";
 
 export default function Navbar() {
   const navigation = ["Home", "About Us", "Services", "Contact Us"];
@@ -15,10 +17,10 @@ export default function Navbar() {
             <>
               <div className="flex flex-wrap items-center justify-between w-full lg:w-auto">
                 <Link href="/">
-                  <a className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
+                  <a className="flex items-center space-x-2 lg:text-2xl xl:text-2xl text-xl font-medium text-pink-600 dark:text-gray-100">
                     <span>
-                      <img
-                        src="/img/logo.svg"
+                      <Image
+                        src={Logo}
                         alt="N"
                         width="32"
                         height="32"
@@ -89,6 +91,7 @@ export default function Navbar() {
           <ThemeChanger />
         </div>
       </nav>
+      <div class="relative block rounded-sm border-t-4 border-pink-600 shadow-xl"></div>
     </div>
   );
 }

@@ -2,23 +2,30 @@ import Link from "next/link";
 import Image from "next/image";
 import React from "react";
 import Container from "./container";
+import Logo from "../public/img/logo.png";
 
 export default function Footer() {
-  const navigation = ["Home", "About Us", "Services", "Contact Us"];
+  const navigation = [
+    "Home",
+    "About Us",
+    "Services",
+    "Contact Us",
+  ];
   const links = ["/", "/about-us", "/services", "/contact-us"];
   const legal = ["Terms", "Privacy", "Legal"];
   return (
     <div className="relative">
+      <div className="relative block rounded-sm border-t-4 border-pink-600 shadow-xl"></div>
       <Container>
         <div className="grid max-w-screen-xl grid-cols-1 gap-10 pt-10 mx-auto mt-5 border-t border-gray-100 dark:border-trueGray-700 lg:grid-cols-5">
           <div className="lg:col-span-2">
             <div>
               {" "}
               <Link href="/">
-                <a className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
+                <a className="flex items-center space-x-2 text-2xl font-medium text-pink-600 dark:text-gray-100">
                   <span>
-                    <img
-                      src="/img/logo.svg"
+                    <Image
+                      src={Logo}
                       alt="N"
                       width="32"
                       height="32"

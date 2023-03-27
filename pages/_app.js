@@ -3,7 +3,6 @@ import "../css/tailwind.css";
 import Head from "next/head";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
-import PopupWidget from "../components/popupWidget";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -20,7 +19,7 @@ function MyApp({ Component, pageProps }) {
       <Navbar />
       <Component {...pageProps} />
       <Footer />
-      <PopupWidget />
+      {/* <PopupWidget /> */}
     </ThemeProvider>
   );
 }
