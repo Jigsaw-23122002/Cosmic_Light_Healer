@@ -16,115 +16,89 @@ function Pricing() {
         Experience the ultimate convenience and value with our carefully curated
         package of premium services tailored to meet your every need.
       </SectionTitle>
-      <div className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
-        <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-3 gap-2 lg:gap-12 py-8 lg:py-12 px-6 sm:px-0 lg:px-6">
-          <div className="flex justify-center">
-            <div className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20">
-              <div className="p-4 lg:p-0 mt-6 lg:mt-16">
-                <Image src={Img1} width={145} height={165} alt="Free Plan" />
-              </div>
-              <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
-                Free Plan
-              </p>
-              <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
-                <li className="relative check custom-list my-2">
-                  Unlimited Bandwitch
-                </li>
-                <li className="relative check custom-list my-2">
-                  Encrypted Connection
-                </li>
-                <li className="relative check custom-list my-2">
-                  No Traffic Logs
-                </li>
-                <li className="relative check custom-list my-2">
-                  Works on All Devices
-                </li>
-              </ul>
-              <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
-                <p className="text-2xl text-black-600 text-center mb-4 ">
-                  Free
-                </p>
-                <ButtonOutline>Select</ButtonOutline>
-              </div>
-            </div>
+      <div className="flex flex-col xl:flex-row lg:flex-row justify-center p-10">
+        <div class="flex flex-col items-center max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-900 p-5 m-5">
+          <a href="#">
+            <Image class="rounded-t-lg" src={Img1} alt="" />
+          </a>
+          <div class="p-5">
+            <a href="#">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                Empowerment Coaching sessions + Personalized Techniques online.
+              </h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              1. Discovery Call (free) - Try it out and see if it is right for
+              you. Discover session is 40 minutes long.
+            </p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              2. Coaching session - $250 90 minutes long
+            </p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              3. 6-week packages - $1200 6 sessions 90 minutes long
+            </p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              4. 8-week package - $1500 8 sessions
+            </p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              5. 12-week package - $2300 12 coaching sessions
+            </p>
           </div>
-          <div className="flex justify-center">
-            <div className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20">
-              <div className="p-4 lg:p-0 mt-6 lg:mt-16">
-                <Image
-                  src={Img2}
-                  width={145}
-                  height={165}
-                  alt="Standard Plan"
-                />
-              </div>
-              <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
-                Standard Plan{" "}
-              </p>
-              <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
-                <li className="relative check custom-list my-2">
-                  Unlimited Bandwitch
-                </li>
-                <li className="relative check custom-list my-2">
-                  Encrypted Connection
-                </li>
-                <li className="relative check custom-list my-2">
-                  No Traffic Logs
-                </li>
-                <li className="relative check custom-list my-2">
-                  Works on All Devices
-                </li>
-                <li className="relative check custom-list my-2">
-                  Connect Anyware{" "}
-                </li>
-              </ul>
-              <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
-                <p className="text-2xl text-black-600 text-center mb-4 ">
-                  $9 <span className="text-black-500">/ mo</span>
-                </p>
-                <ButtonOutline>Select</ButtonOutline>
-              </div>
-            </div>
+        </div>
+        <div class="flex flex-col items-center max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-5 m-5">
+          <a href="#">
+            <Image class="rounded-t-lg" src={Img1} alt="" />
+          </a>
+          <div class="p-5">
+            <a href="#">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                Pancha Bhuta Kriya (Yoga + Breathwork + Visualization +
+                Meditation + healing) – Chakra cleansing and connection to five
+                element – (Only 21 seats available) (Group session online)
+              </h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              (For the first 11 participants it would be $900)
+            </p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              (This is an exclusive program and contains secret processes and
+              techniques)
+            </p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              1 Month Program - $ 1100 US dollars Total 8 sessions, 2 sessions a
+              week, 90 minutes sessions
+            </p>
           </div>
-          <div className="flex justify-center">
-            <div className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20">
-              <div className="p-4 lg:p-0 mt-6 lg:mt-16">
-                <Image src={Img3} width={145} height={165} alt="Premium Plan" />
-              </div>
-              <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
-                Premium Plan{" "}
-              </p>
-              <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
-                <li className="relative check custom-list my-2">
-                  Unlimited Bandwitch
-                </li>
-                <li className="relative check custom-list my-2">
-                  Encrypted Connection
-                </li>
-                <li className="relative check custom-list my-2">
-                  No Traffic Logs
-                </li>
-                <li className="relative check custom-list my-2">
-                  Works on All Devices
-                </li>
-                <li className="relative check custom-list my-2">
-                  Connect Anyware{" "}
-                </li>
-                <li className="relative check custom-list my-2">
-                  Get New Features{" "}
-                </li>
-              </ul>
-              <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
-                <p className="text-2xl text-black-600 text-center mb-4 ">
-                  $12 <span className="text-black-500">/ mo</span>
-                </p>
-
-                <ButtonOutline>Select</ButtonOutline>
-              </div>
-            </div>
+        </div>
+        <div class="flex flex-col items-center max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-5 m-5">
+          <a href="#">
+            <Image class="rounded-t-lg" src={Img1} alt="" />
+          </a>
+          <div class="p-5">
+            <a href="#">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                The Flowing Meditation Online (Martial art techniques + Thai Chi
+                + Breathwork + Visualization)
+              </h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              1. 1 week package - $250 sessions 60 minutes long
+            </p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              2. 6-week packages - $1200 12 sessions 60 minutes
+            </p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              3. 8-week package - $1500 16 sessions 60 minutes
+            </p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              4. 12-week package - 2300 24 sessions 60 minutes
+            </p>
           </div>
         </div>
       </div>
+      <p className="mb-3 text-center font-normal text-gray-700 dark:text-gray-400 p-10">
+        For further enquiry please contact cosmiclighthealer@gmail.com
+      </p>
     </div>
   );
 }

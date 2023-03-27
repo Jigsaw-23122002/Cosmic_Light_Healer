@@ -6,7 +6,6 @@ function Services() {
   return (
     <div>
       <Pricing />
-      <Testimonials />
     </div>
   );
 }
