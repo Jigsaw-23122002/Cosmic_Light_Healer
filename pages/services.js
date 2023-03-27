@@ -1,6 +1,7 @@
 import React from "react";
-import SectionTitle from "../components/sectionTitle";
+import Pricing from "../components/pricing";
 import Testimonials from "../components/testimonials";
+import SectionTitle from "../components/sectionTitle";
 import { useState } from "react";
 import { set } from "react-hook-form";
 import servicesData from "../components/serviceData";
@@ -78,6 +79,7 @@ function Services() {
         ))}
         {/* add this on the home page */}
       {/* <Testimonials /> */}
+      <Pricing/>
     </div>
   );
 }

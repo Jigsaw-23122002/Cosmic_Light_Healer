@@ -9,12 +9,12 @@ function Carousels() {
         <div className="bg-gray-400 w-full relative z-0">
           <Image src={Img2} layout="responsive" />
           <div className="absolute inset-0 flex justify-center items-center z-10">
-            <div className="lg:mb-20 xl:mb-20 mb-10">
-              <h1 className="text-2xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight">
+            <div className="lg:mb-60 xl:mb-60 mb-10">
+              <h1 className="text-2xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight text-center">
                 Cosmic Light Healer
               </h1>
               <p className="text-gray-800 text-center">
-                The websites for Yogas
+                Journey through the river of Happiness
               </p>
             </div>
           </div>
