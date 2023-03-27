@@ -5,6 +5,7 @@ import SectionTitle from "../components/sectionTitle";
 import { useState } from "react";
 import { set } from "react-hook-form";
 import servicesData from "../components/serviceData";
+import Workshops from "../components/workshops";
 function Services() {
   console.log("serv data", servicesData);
   const [expanded, setExpanded] = useState(false);
@@ -79,6 +80,7 @@ function Services() {
         ))}
         {/* add this on the home page */}
       {/* <Testimonials /> */}
+      <Workshops/>
       <Pricing/>
     </div>
   );
