@@ -31,6 +31,7 @@ function AboutUs() {
       <SectionTitle pretitle="Founders of Cosmic Light Healer"></SectionTitle>
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
+      <div>he</div>
     </div>
   );
 }

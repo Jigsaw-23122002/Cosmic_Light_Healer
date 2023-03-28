@@ -4,14 +4,25 @@ import Container from "./container";
 import userOneImg from "../public/img/user1.jpg";
 import userTwoImg from "../public/img/user2.jpg";
 import userThreeImg from "../public/img/user3.jpg";
-
+import { useState } from "react";
 export default function Testimonials() {
+  const [expand1, setExpand1] = useState(false);
   return (
     <Container>
       <div className="grid gap-10 grid-cols-2 ">
         <div className="col-span-2">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
+              {/* <div>{item.desc.substring(0, 200)}... </div>
+                      <button
+                        onClick={(event) => {
+                          setExpanded(true);
+                          event.preventDefault();
+                        }}
+                        className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 my-4"
+                      >
+                        Read More...
+                      </button> */}
               Dear Soni,
               <br></br>I wanted to take a moment to express my gratitude for the
               impact you have had on my life. I was lost in a sea of negative
@@ -56,6 +67,11 @@ export default function Testimonials() {
               <br></br>
               <br></br>
               Thank you for being my window, dear Vinu.
+              <div className="text-blue-600 hover:underline hover:cursor-pointer">
+                <a href="http://awakeningtimes.com/about-the-mind-part-02/">
+                  Link to Vinu's article on Awakening Times
+                </a>
+              </div>
             </p>
 
             <Avatar name=" Pelka Evdenic Kuzelka" title="Awakening Times" />

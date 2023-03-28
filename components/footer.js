@@ -103,7 +103,7 @@ export default function Footer() {
                 <Facebook />
               </a>
               <a
-                href="https://instagram.com/web3templates"
+                href="https://www.instagram.com/cosmiclighthealer/?igshid=YmMyMTA2M2Y%3D"
                 target="_blank"
                 rel="noopener"
               >

@@ -35,12 +35,12 @@ export default function Faq() {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
+    question: "How can coahing help me?",
+    answer: "Coaching can help you calrify goals and identify managable steps to acheiving them. It can hellp you understand ways you may be blocking yourself and show you strategies you can use to overcome blocks to your success.",
   },
   {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
+    question: "How long do i need to work with coach?",
+    answer: "Number of sessions you may need varies, depending on where you are and what you want to acheive",
   },
   {
     question: "What is your refund policy? ",
