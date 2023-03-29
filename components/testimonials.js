@@ -13,7 +13,7 @@ export default function Testimonials() {
   return (
     <Container>
       <div className="grid gap-10 grid-cols-2 ">
-        <div className="col-span-2">
+        <div className="col-span-2" id="test-1">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
               {/* <div>{item.desc.substring(0, 200)}... </div>
@@ -62,7 +62,10 @@ export default function Testimonials() {
                     <button
                       type="button"
                       class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-                      onClick={() => setF1(true)}
+                      onClick={() => {
+                        setF1(true);
+                        document.getElementById("test-1").scrollIntoView();
+                      }}
                     >
                       Read More
                     </button>
@@ -75,7 +78,10 @@ export default function Testimonials() {
                     <button
                       type="button"
                       class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-                      onClick={() => setF1(false)}
+                      onClick={() => {
+                        setF1(false);
+                        document.getElementById("test-1").scrollIntoView();
+                      }}
                     >
                       Read Less
                     </button>
@@ -85,7 +91,7 @@ export default function Testimonials() {
             </div>
           </div>
         </div>
-        <div className="col-span-2">
+        <div className="col-span-2" id="test-2">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
               Dear Vinu,
@@ -126,7 +132,10 @@ export default function Testimonials() {
                     <button
                       type="button"
                       class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-                      onClick={() => setF2(true)}
+                      onClick={() => {
+                        setF2(true);
+                        document.getElementById("test-2").scrollIntoView();
+                      }}
                     >
                       Read More
                     </button>
@@ -139,7 +148,10 @@ export default function Testimonials() {
                     <button
                       type="button"
                       class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-                      onClick={() => setF2(false)}
+                      onClick={() => {
+                        setF2(false);
+                        document.getElementById(`test-2`).scrollIntoView();
+                      }}
                     >
                       Read Less
                     </button>
@@ -149,7 +161,7 @@ export default function Testimonials() {
             </div>
           </div>
         </div>
-        <div className="col-span-2">
+        <div className="col-span-2" id="test-3">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
               Soni has made my life Calm and taught the meaning of real bliss in
@@ -191,7 +203,10 @@ export default function Testimonials() {
                     <button
                       type="button"
                       class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-                      onClick={() => setF3(true)}
+                      onClick={() => {
+                        setF3(true);
+                        document.getElementById("test-3").scrollIntoView();
+                      }}
                     >
                       Read More
                     </button>
@@ -204,7 +219,10 @@ export default function Testimonials() {
                     <button
                       type="button"
                       class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-                      onClick={() => setF3(false)}
+                      onClick={() => {
+                        setF3(false);
+                        document.getElementById("test-3").scrollIntoView();
+                      }}
                     >
                       Read Less
                     </button>
