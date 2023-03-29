@@ -27,7 +27,8 @@ function Services() {
           <div className="flex justify-center align-middle px-10 py-5 w-300">
             <div>
               <a
-                href="#"
+                href={`#${item.id}`}
+                id={`struct-${item.id}`}
                 class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row  hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
               >
                 <img
@@ -58,6 +59,9 @@ function Services() {
                               setExpanded(false);
                               setFocus(0);
                               event.preventDefault();
+                              document
+                                .getElementById(`struct-${item.id}`)
+                                .scrollIntoView();
                             }}
                             className="flex justify-end align-middle text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
                           >
@@ -73,6 +77,9 @@ function Services() {
                               setExpanded(true);
                               setFocus(item.id);
                               event.preventDefault();
+                              document
+                                .getElementById(`struct-${item.id}`)
+                                .scrollIntoView();
                             }}
                             className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 my-4"
                           >
