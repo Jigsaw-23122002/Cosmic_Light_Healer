@@ -5,8 +5,8 @@ import { Disclosure } from "@headlessui/react";
 import Logo from "../public/img/logo.png";
 
 export default function Navbar() {
-  const navigation = ["Home", "About Us", "Services", "Contact Us"];
-  const links = ["/", "/about-us", "/services", "/contact-us"];
+  const navigation = ["Home", "About Us", "Services", "Contact Us", "Gallery"];
+  const links = ["/", "/about-us", "/services", "/contact-us", "/gallery"];
 
   return (
     <div className="w-full">

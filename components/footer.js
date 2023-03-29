@@ -5,8 +5,8 @@ import Container from "./container";
 import Logo from "../public/img/logo.png";
 
 export default function Footer() {
-  const navigation = ["Home", "About Us", "Services", "Contact Us"];
-  const links = ["/", "/about-us", "/services", "/contact-us"];
+  const navigation = ["Home", "About Us", "Services", "Contact Us", "Gallery"];
+  const links = ["/", "/about-us", "/services", "/contact-us", "/gallery"];
   const legal = ["Terms", "Privacy", "Legal"];
   return (
     <div className="relative">
@@ -49,7 +49,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="">
-            <div className="flex  space-x-5 text-black dark:text-gray-500">
+            <div className="flex  space-x-5 text-black dark:text-white">
               Follow us on
             </div>
             <br />
