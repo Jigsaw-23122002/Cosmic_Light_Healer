@@ -13,7 +13,7 @@ function Workshops() {
         to shape the life as the person wants
       </SectionTitle>
       <div className="flex flex-row justify-evenly">
-        <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mx-10 justify-center self-center">
+        <div className=" xl:w-1/3 lg:w-1/3 w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mx-10 justify-center self-center">
           <a href="#">
             <img
               className="rounded-t-lg"
