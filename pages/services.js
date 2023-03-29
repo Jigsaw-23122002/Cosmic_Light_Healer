@@ -6,35 +6,13 @@ import servicesData from "../components/serviceData";
 import Workshops from "../components/workshops";
 import FadeInSection from "../components/fadeInSection";
 import Image from "next/image";
-import flowing_meditation from "../public/img/flowing_meditation.jpg";
-import general1 from "../public/img/general1.jpg";
 
 function Services() {
-  console.log("serv data", servicesData);
   const [expanded, setExpanded] = useState(false);
   const [focus, setFocus] = useState(0);
   return (
     <div>
-       {/* <div>
-      <div className="w-full bg-gray-200 flex justify-center items-center">
-        <div className="bg-gray-400 w-full relative z-0">
-          <Image src={Img2} layout="responsive" />
-          <div className="absolute inset-0 flex justify-center items-center z-10">
-            <FadeInSection>
-              <div className="lg:mb-60 xl:mb-60 mb-10">
-                <h1 className="text-2xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight text-center">
-                  Cosmic Light Healer
-                </h1>
-                <p className="text-gray-800 text-center">
-                  Journey through the river of Happiness
-                </p>
-              </div>
-            </FadeInSection>
-          </div>
-        </div>
-      </div>
-    </div> */}
-      <SectionTitle pretitle="Coaching" title="Here are the Services we offer!">
+      <SectionTitle pretitle="Services" title="Here are the Services we offer!">
         What is coaching ? (what are you going to bring into your coaching) -
         Coaching is a creative process to unlock the abundant power and
         potential by accessing the eternal source within. Coaching is a flow
