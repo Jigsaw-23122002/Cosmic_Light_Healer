@@ -1,9 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import ButtonOutline from "./misc/ButtonOutline.";
 import Img1 from "../public/img/Free.png";
-import Img2 from "../public/img/Standard.png";
-import Img3 from "../public/img/Premium.png";
 import SectionTitle from "./sectionTitle";
 
 function Pricing() {

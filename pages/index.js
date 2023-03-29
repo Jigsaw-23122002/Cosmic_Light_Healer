@@ -1,31 +1,10 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import Hero from "../components/hero";
 import SectionTitle from "../components/sectionTitle";
 import Video from "../components/video";
-import Cta from "../components/cta";
 import Faq from "../components/faq";
 import Carousels from "../components/carousel";
 import Testimonials from "../components/testimonials";
-
-function FadeInSection(props) {
-  const [isVisible, setVisible] = React.useState(false);
-  const domRef = React.useRef();
-  React.useEffect(() => {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => setVisible(entry.isIntersecting));
-    });
-    observer.observe(domRef.current);
-  }, []);
-  return (
-    <div
-      className={`fade-in-section ${isVisible ? "is-visible" : ""}`}
-      ref={domRef}
-    >
-      {props.children}
-    </div>
-  );
-}
+import FadeInSection from "../components/fadeInSection";
 
 export default function Home() {
   return (

@@ -1,30 +1,10 @@
 import React from "react";
 import Pricing from "../components/pricing";
-import Testimonials from "../components/testimonials";
 import SectionTitle from "../components/sectionTitle";
 import { useState } from "react";
-import { set } from "react-hook-form";
 import servicesData from "../components/serviceData";
 import Workshops from "../components/workshops";
-
-function FadeInSection(props) {
-  const [isVisible, setVisible] = React.useState(false);
-  const domRef = React.useRef();
-  React.useEffect(() => {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => setVisible(entry.isIntersecting));
-    });
-    observer.observe(domRef.current);
-  }, []);
-  return (
-    <div
-      className={`fade-in-section ${isVisible ? "is-visible" : ""}`}
-      ref={domRef}
-    >
-      {props.children}
-    </div>
-  );
-}
+import FadeInSection from "../components/fadeInSection";
 
 function Services() {
   console.log("serv data", servicesData);
