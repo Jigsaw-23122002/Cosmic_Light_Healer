@@ -4,6 +4,7 @@ import Video from "../components/video";
 import Cta from "../components/cta";
 import Faq from "../components/faq";
 import Carousels from "../components/carousel";
+import Testimonials from "../components/testimonials";
 
 export default function Home() {
   return (
@@ -17,11 +18,16 @@ export default function Home() {
         practice and achieve your goals.
       </p>
       <Video />
-      <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
+      <SectionTitle pretitle="FAQs" title="Frequently Asked Questions">
         Answer your customers possible questions here, it will increase the
         conversion rate as well as support or chat requests.
       </SectionTitle>
       <Faq />
+      <SectionTitle
+        pretitle="Testimonials"
+        title="Experiences of Individuals with Cosmic Light healer"
+      ></SectionTitle>
+      <Testimonials />
     </>
   );
 }
