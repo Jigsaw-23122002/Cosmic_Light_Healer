@@ -5,12 +5,7 @@ import Container from "./container";
 import Logo from "../public/img/logo.png";
 
 export default function Footer() {
-  const navigation = [
-    "Home",
-    "About Us",
-    "Services",
-    "Contact Us",
-  ];
+  const navigation = ["Home", "About Us", "Services", "Contact Us"];
   const links = ["/", "/about-us", "/services", "/contact-us"];
   const legal = ["Terms", "Privacy", "Legal"];
   return (
@@ -38,26 +33,7 @@ export default function Footer() {
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              Nextly is a free landing page & marketing website template for
-              startups and indie projects. Its built with Next.js & TailwindCSS.
-              And its completely open-source.
-            </div>
-
-            <div className="mt-5">
-              <a
-                href="https://vercel.com/?utm_source=web3templates&utm_campaign=oss"
-                target="_blank"
-                rel="noopener"
-                className="relative block w-44"
-              >
-                <Image
-                  src="/img/vercel.svg"
-                  layout="responsive"
-                  alt="Powered by Vercel"
-                  width="212"
-                  height="44"
-                />
-              </a>
+              Journey through the river of Happiness
             </div>
           </div>
 
@@ -72,49 +48,40 @@ export default function Footer() {
               ))}
             </div>
           </div>
-          <div>
-            <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
-              {legal.map((item, index) => (
-                <Link key={index} href="/">
-                  <a className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">
-                    {item}
-                  </a>
-                </Link>
-              ))}
-            </div>
-          </div>
           <div className="">
-            <div>Follow us</div>
-            <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
-              <a
+            <div className="flex mt-5 space-x-5 text-black dark:text-gray-500">
+              Follow us on
+            </div>
+            {/* <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500> */}
+            {/* <a
                 href="https://twitter.com/web3templates"
                 target="_blank"
                 rel="noopener"
               >
                 <span className="sr-only">Twitter</span>
                 <Twitter />
-              </a>
-              <a
+              </a> */}
+            {/* <a
                 href="https://facebook.com/web3templates"
                 target="_blank"
                 rel="noopener"
               >
                 <span className="sr-only">Facebook</span>
                 <Facebook />
-              </a>
-              <a
-                href="https://www.instagram.com/cosmiclighthealer/?igshid=YmMyMTA2M2Y%3D"
-                target="_blank"
-                rel="noopener"
-              >
-                <span className="sr-only">Instagram</span>
-                <Instagram />
-              </a>
-              <a href="https://linkedin.com/" target="_blank" rel="noopener">
+              </a> */}
+            <a
+              href="https://www.instagram.com/cosmiclighthealer/?igshid=YmMyMTA2M2Y%3D"
+              target="_blank"
+              rel="noopener"
+            >
+              <span className="sr-only">Instagram</span>
+              <Instagram />
+            </a>
+            {/* <a href="https://linkedin.com/" target="_blank" rel="noopener">
                 <span className="sr-only">Linkedin</span>
                 <Linkedin />
-              </a>
-            </div>
+              </a> */}
+            {/* </div> */}
           </div>
         </div>
 
