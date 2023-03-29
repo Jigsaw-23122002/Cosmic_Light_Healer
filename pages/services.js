@@ -9,6 +9,7 @@ import Workshops from "../components/workshops";
 function Services() {
   console.log("serv data", servicesData);
   const [expanded, setExpanded] = useState(false);
+  const [focus, setFocus] = useState(0);
   return (
     <div>
       <SectionTitle pretitle="Coaching" title="Here are the Services we offer!">
@@ -38,39 +39,47 @@ function Services() {
                   <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                     {item.title}
                   </h5>
-                  {item.desc.length < 100 ? (
+                  {item.desc.length < 100 && (
                     <div>
                       <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
                         {item.desc}
                       </p>
                     </div>
-                  ) : expanded ? (
+                  )}
+                  {item.desc.length >= 100 && (
                     <div>
-                      <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                        {item.desc}
-                      </p>
-                      <button
-                        onClick={(event) => {
-                          setExpanded(false);
-                          event.preventDefault();
-                        }}
-                        className="flex justify-end align-middle text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-                      >
-                        Read Less...
-                      </button>
-                    </div>
-                  ) : (
-                    <div>
-                      <div>{item.desc.substring(0, 200)}... </div>
-                      <button
-                        onClick={(event) => {
-                          setExpanded(true);
-                          event.preventDefault();
-                        }}
-                        className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 my-4"
-                      >
-                        Read More...
-                      </button>
+                      {expanded && focus === item.id && (
+                        <div>
+                          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                            {item.desc}
+                          </p>
+                          <button
+                            onClick={(event) => {
+                              setExpanded(false);
+                              setFocus(0);
+                              event.preventDefault();
+                            }}
+                            className="flex justify-end align-middle text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+                          >
+                            Read Less...
+                          </button>
+                        </div>
+                      )}
+                      {focus !== item.id && (
+                        <div>
+                          <div>{item.desc.substring(0, 200)}... </div>
+                          <button
+                            onClick={(event) => {
+                              setExpanded(true);
+                              setFocus(item.id);
+                              event.preventDefault();
+                            }}
+                            className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 my-4"
+                          >
+                            Read More...
+                          </button>
+                        </div>
+                      )}
                     </div>
                   )}
                 </div>
