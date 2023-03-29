@@ -35,12 +35,14 @@ export default function Faq() {
 
 const faqdata = [
   {
-    question: "How can coahing help me?",
-    answer: "Coaching can help you calrify goals and identify managable steps to acheiving them. It can hellp you understand ways you may be blocking yourself and show you strategies you can use to overcome blocks to your success.",
+    question: "How can coaching help me?",
+    answer:
+      "Coaching can help you clarify goals and identify managable steps to acheiving them. It can help you understand ways you may be blocking yourself and show you strategies you can use to overcome blocks to your success.",
   },
   {
-    question: "How long do i need to work with coach?",
-    answer: "Number of sessions you may need varies, depending on where you are and what you want to acheive",
+    question: "How long do I need to work with coach?",
+    answer:
+      "Number of sessions you may need varies, depending on where you are and what you want to acheive",
   },
   {
     question: "What is your refund policy? ",
