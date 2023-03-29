@@ -37,7 +37,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div>
+          <div className="lg:col-span-2">
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
               {navigation.map((item, index) => (
                 <Link key={index} href={links[index]}>
@@ -49,9 +49,10 @@ export default function Footer() {
             </div>
           </div>
           <div className="">
-            <div className="flex mt-5 space-x-5 text-black dark:text-gray-500">
+            <div className="flex  space-x-5 text-black dark:text-gray-500">
               Follow us on
             </div>
+            <br />
             {/* <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500> */}
             {/* <a
                 href="https://twitter.com/web3templates"
@@ -75,7 +76,7 @@ export default function Footer() {
               rel="noopener"
             >
               <span className="sr-only">Instagram</span>
-              <Instagram />
+              <Instagram size={40} />
             </a>
             {/* <a href="https://linkedin.com/" target="_blank" rel="noopener">
                 <span className="sr-only">Linkedin</span>

@@ -29,11 +29,11 @@ function Carousels() {
           <Image src={Img2} layout="responsive" />
           <div className="absolute inset-0 flex justify-center items-center z-10">
             <FadeInSection>
-              <div className="lg:mb-60 xl:mb-60 mb-10">
+              <div className="lg:mb-96 xl:mb-96 mb-20">
                 <h1 className="text-2xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight text-center">
                   Cosmic Light Healer
                 </h1>
-                <p className="text-gray-800 text-center">
+                <p className="text-gray-800 text-center xl:text-3xl lg:text-3xl">
                   Journey through the river of Happiness
                 </p>
               </div>

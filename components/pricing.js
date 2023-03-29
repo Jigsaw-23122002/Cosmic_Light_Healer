@@ -93,7 +93,7 @@ function Pricing() {
           </div>
         </div>
       </div>
-      <p className="mb-3 text-center font-normal text-gray-700 dark:text-gray-400 p-10">
+      <p className="mb-3 text-center font-normal text-2xl text-gray-700 dark:text-gray-400 p-10">
         For further enquiry please contact cosmiclighthealer@gmail.com
       </p>
     </div>

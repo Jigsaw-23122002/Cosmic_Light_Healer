@@ -1,7 +1,6 @@
 import React from "react";
 import SectionTitle from "../components/sectionTitle";
 import Video from "../components/video";
-import Faq from "../components/faq";
 import Carousels from "../components/carousel";
 import Testimonials from "../components/testimonials";
 import FadeInSection from "../components/fadeInSection";
@@ -24,15 +23,6 @@ export default function Home() {
       </FadeInSection>
       <FadeInSection>
         <Video />
-      </FadeInSection>
-      <FadeInSection>
-        <SectionTitle pretitle="FAQs" title="Frequently Asked Questions">
-          Answer your customers possible questions here, it will increase the
-          conversion rate as well as support or chat requests.
-        </SectionTitle>
-      </FadeInSection>
-      <FadeInSection>
-        <Faq />
       </FadeInSection>
       <FadeInSection>
         <SectionTitle
