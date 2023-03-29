@@ -44,14 +44,14 @@ const faqdata = [
     answer:
       "Number of sessions you may need varies, depending on where you are and what you want to acheive",
   },
-  {
-    question: "What is your refund policy? ",
-    answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
-  },
-  {
-    question: "Do you offer technical support? ",
-    answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
-  },
+  // {
+  //   question: "What is your refund policy? ",
+  //   answer:
+  //     "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+  // },
+  // {
+  //   question: "Do you offer technical support? ",
+  //   answer:
+  //     "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+  // },
 ];
