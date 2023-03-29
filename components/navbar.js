@@ -91,7 +91,7 @@ export default function Navbar() {
           <ThemeChanger />
         </div>
       </nav>
-      <div class="relative block rounded-sm border-t-4 border-pink-600 shadow-xl"></div>
+      <div className="relative block rounded-sm border-t-4 border-pink-600 shadow-xl"></div>
     </div>
   );
 }

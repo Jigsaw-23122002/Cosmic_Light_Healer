@@ -13,21 +13,21 @@ function Workshops() {
         to shape the life as the person wants
       </SectionTitle>
       <div className="flex flex-row justify-evenly">
-        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mx-10 justify-center self-center">
+        <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mx-10 justify-center self-center">
           <a href="#">
             <img
-              class="rounded-t-lg"
+              className="rounded-t-lg"
               src="https://manhattanmentalhealthcounseling.com/wp-content/uploads/2019/06/Top-5-Scientific-Findings-on-MeditationMindfulness.jpeg"
               alt=""
             />
           </a>
-          <div class="p-5">
+          <div className="p-5">
             <a href="#">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 Bhaav Retreat{" "}
               </h5>
             </a>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
               Bhaav - Dimensions of life “Happiness is your choice no fate”
               .This Retreat is for the alignment of mind body and soul. The true
               nature of souls is happiness “satchitananda”. Once we connect with
@@ -38,7 +38,7 @@ function Workshops() {
             <a
               //   add link of workshop of th gform here
               href="#"
-              class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
               Register Now !
             </a>
