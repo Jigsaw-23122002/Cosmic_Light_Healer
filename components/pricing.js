@@ -17,7 +17,7 @@ function Pricing() {
         package of premium services tailored to meet your every need.
       </SectionTitle>
       <div className="flex flex-col xl:flex-row lg:flex-row justify-center p-10">
-        <div class="flex flex-col items-center max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-5 m-5">
+        <div class="flex flex-col items-center lg:w-1/3 xl:w-1/3 max-w bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-5 m-5">
           <a href="#">
             <Image class="rounded-t-lg" src={Img1} alt="" />
           </a>
@@ -45,7 +45,7 @@ function Pricing() {
             </p>
           </div>
         </div>
-        <div class="flex flex-col items-center max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-5 m-5">
+        <div class="flex flex-col items-center lg:w-1/3 xl:w-1/3 max-w bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-5 m-5">
           <a href="#">
             <Image class="rounded-t-lg" src={Img1} alt="" />
           </a>
@@ -70,7 +70,7 @@ function Pricing() {
             </p>
           </div>
         </div>
-        <div class="flex flex-col items-center max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-5 m-5">
+        <div class="flex flex-col items-center lg:w-1/3 xl:w-1/3 max-w bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-5 m-5">
           <a href="#">
             <Image class="rounded-t-lg" src={Img1} alt="" />
           </a>
