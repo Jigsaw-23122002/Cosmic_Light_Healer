@@ -65,6 +65,9 @@ export default function Navbar() {
                         </a>
                       </Link>
                     ))}
+                    <br />
+                    <br />
+                    <ThemeChanger />
                   </>
                 </Disclosure.Panel>
               </div>
