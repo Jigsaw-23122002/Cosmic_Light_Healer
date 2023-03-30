@@ -134,7 +134,7 @@ function Gallery() {
           </div>
         </FadeInSection>
       </div>
-      {isOpen && <PopUp close={closeModal} />}
+      {isOpen && <PopUp close={closeModal} content={Img1} />}
     </div>
   );
 }
