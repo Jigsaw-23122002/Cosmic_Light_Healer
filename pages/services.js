@@ -9,7 +9,7 @@ import Image from "next/image";
 
 function Services() {
   const [expanded, setExpanded] = useState(false);
-  const [focus, setFocus] = useState(0);
+  const [focus, setFocus] = useState(-1);
   return (
     <div>
       <SectionTitle pretitle="Services" title="Here are the Services we offer!">
@@ -69,7 +69,7 @@ function Services() {
                             <button
                               onClick={(event) => {
                                 setExpanded(false);
-                                setFocus(0);
+                                setFocus(-1);
                                 event.preventDefault();
                                 document
                                   .getElementById(`struct-${item.id}`)

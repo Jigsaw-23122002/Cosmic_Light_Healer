@@ -4,6 +4,13 @@ import cosmic_healing from "../public/img/cosmic_healing.jpg"
 import shakti_chalan from "../public/img/shakti_chalan.jpg"
 import yoga_nidra from "../public/img/yoga_nidra.jpg"
 const servicesData = [
+  
+  {
+    id:0,
+    title: "Demestify the mind",
+    image:flowing_meditation,
+    desc: "What is Demestify the mind ? - It is a creative process to unlock the abundant power and potential by accessing the eternal source within. demestifying the mind is a result-oriented empowering process which involves the use of powerful techniques and tools to realize, release and transform.",
+  },
   {
     id:1,
     title: "The Flowing Meditation",
@@ -50,14 +57,14 @@ const servicesData = [
     title: "Seven Steps of Glory ",
     image:flowing_meditation,
 
-    desc: "“All of the things that you want come easily when you are in that vibration of love” – Abraham.  This technique is a powerful combination of Breathwork and visualization together for mystical manifestations and transformations in the mind, body and in the material world. Breathwork is the flow of prana (life force) in the body. It opens the channels for the vital energy to flow. It is one of the potent techniques for physical, mental and spiritual healing. It releases the deeper blocks in the body and mind at conscious and subconscious levels. Visualization is the process of creating the reality utilizing the power of mind. ",
+    desc: "“All of the things that you want come easily when you are in that vibration of love” – Abraham.  This technique is a powerful combination of Breathwork and visualization together for mystical manifestations and transformations in the mind, body and in the material world. Breathwork is the flow of prana (life force) in the body. It opens the channels for the vital energy to flow. It is one of the potent techniques for physical, mental and spiritual healing. It releases the deeper blocks in the body and mind at conscious and subconscious levels. Visualization is the process of creating the reality utilizing the power of mind.Being in the present moment - As human beings, our tendency is to ruminate about the past or worry about the future. Mindfulness is being present in the moment, paying attention to what you’re doing right now. To be fully conscious and tune into deeper realms, we need to be able to bring ourselves back to the present any time we remember to.",
   },
   {
     id:8,
     title: "Zen Mindfulness ",
     image:zen_mindfulness,
 
-    desc: "This technique consists of two methods mindfulness meditations and Zen living. Mindfulness meditations and Zen living are the key to self-connection and connection to the source within. They create space to experience the deeper powerful dimensions within the self. It is based on four important principles,Patience, Letting go, Acceptance and Non-judgment. Practicing mindfulness and meditations leads to two transformations,Being in the present moment.Accepting yourself fully with compassion",
+    desc: "This technique consists of two methods mindfulness meditations and Zen living. Mindfulness meditations and Zen living are the key to self-connection and connection to the source within. They create space to experience the deeper powerful dimensions within the self. It is based on four important principles,Patience, Letting go, Acceptance and Non-judgment. Practicing mindfulness and meditations leads to two transformations,Being in the present moment.Accepting yourself fully with compassion.Accepting yourself with compassion - Mindfulness is about accepting yourself, your thoughts and feelings, and your current situations just as they are, without judgment or trying to change anything. When you’re aware, you can catch those automatic thoughts of self-doubt and self-criticism and consciously choose to treat yourself with kindness and compassion. When you’re coming from a place of calm acceptance, you can be more creative in solving life’s challenges.\nThere are powerful meditation and techniques such as Kinstugi used at cosmic light healer platform to incorporate and establish mindfulness.",
   },
   
 ];
