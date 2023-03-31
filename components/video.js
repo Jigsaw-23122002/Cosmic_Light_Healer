@@ -30,9 +30,12 @@ export default function Video() {
           {playVideo && (
             <iframe
               src="https://drive.google.com/file/d/1ei4hXFBuyulpwLgl1JqREOW26xjLoqhD/preview"
-              sandbox="allow-forms allow-pointer-lock allow-same-origin allow-scripts allow-top-navigation"
+              sandbox="allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation"
               frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              webkitallowfullscreen
+              mozallowfullscreen
+              allow="accelerometer; autoplay; fullscreen *; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
             ></iframe>
           )}
         </div>
