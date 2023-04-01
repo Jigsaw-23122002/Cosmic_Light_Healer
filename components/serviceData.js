@@ -3,13 +3,14 @@ import zen_mindfulness from "../public/img/zen_mindfulness.jpg"
 import cosmic_healing from "../public/img/cosmic_healing.jpg"
 import shakti_chalan from "../public/img/shakti_chalan.jpg"
 import yoga_nidra from "../public/img/yoga_nidra.jpg"
+import demestify_your_mind from "../public/img/demestify_your_mind.jpg"
 const servicesData = [
   
   {
     id:0,
-    title: "Demestify the mind",
-    image:flowing_meditation,
-    desc: "What is Demestify the mind ? - It is a creative process to unlock the abundant power and potential by accessing the eternal source within. demestifying the mind is a result-oriented empowering process which involves the use of powerful techniques and tools to realize, release and transform.",
+    title: "Demestify your mind",
+    image:demestify_your_mind,
+    desc: " Demystify your mind - Mind is the key to unlock the answers. To Understand ourselves we need to understand the mysteries of mind such as the dimension it operates from, the lens it see everything through and the powers it possesses. Demystifying the mind include powerful techniques to remove the lens which mind sees through and to tap into the unexplored creative dimensions of mind. Demystifying the mind sessions includes the coaching method. What is coaching ? - It is a creative process to unlock the abundant power and potential by accessing the eternal source within. Coachingis a result-oriented empowering process which involves the use of powerful techniques and tools to realize, release and transform.",
   },
   {
     id:1,
