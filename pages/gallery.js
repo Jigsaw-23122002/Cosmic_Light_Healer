@@ -27,7 +27,7 @@ function Gallery() {
     <div className={`overflow-hidden`}>
       <FadeInSection>
         <SectionTitle
-          pretitle="Images"
+          pretitle="Moments"
           title="Images of Cosmic Light Healer"
         ></SectionTitle>
       </FadeInSection>
