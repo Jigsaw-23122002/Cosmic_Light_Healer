@@ -44,7 +44,7 @@ function Services() {
                       alt="N"
                       width="650"
                       height="500"
-                      className="object-cover w-full rounded-t-lg h-400 md:h-auto md:w-100 md:rounded-none md:rounded-l-lg"
+                      className=" bg-contain object-cover w-full rounded-t-lg h-400 md:h-auto md:w-100 md:rounded-none md:rounded-l-lg "
                     />
                   </span>
 

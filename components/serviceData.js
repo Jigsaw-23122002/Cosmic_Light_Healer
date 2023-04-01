@@ -4,6 +4,9 @@ import cosmic_healing from "../public/img/cosmic_healing.jpg"
 import shakti_chalan from "../public/img/shakti_chalan.jpg"
 import yoga_nidra from "../public/img/yoga_nidra.jpg"
 import demestify_your_mind from "../public/img/demestify_your_mind.jpg"
+import spiritual_mastery_process from "../public/img/spiritual_mastery_process.jpg"
+import seven_steps_of_glory from "../public/img/seven_steps_of_glory.jpg"
+import yoga from "../public/img/yoga.jpg"
 const servicesData = [
   
   {
@@ -34,14 +37,14 @@ const servicesData = [
   },
   {
     id:4,
-    image:flowing_meditation,
+    image:spiritual_mastery_process,
 
     title: "Spiritual mastery process ",
     desc: " The spiritual mastery process by Soni and Vinu is a method for taping into your spirituality to heal and address any situation in life. This process utilizes spiritual gifts and resources to create abundance, emotional wellbeing, peace and success in the world. Spiritual mastery process acknowledges that we are all connected to a loving universe that has unlimited resources, healing, and wisdom available to al of us. As we unite with the loving universe, instead of thinking that we must be or do something to get what we want, we can simply unlock the abundance for us which we have our birth right on and tap into anything we need or desire. The spiritual mastery process is a holistic approach that incorporates NLP Coaching methods, Zen mindfulness, Flowing meditation and Yoga Nidra. It includes powerful techniques and methods that include four steps.Realize,Embrace,Release,Heal",
   },
   {
     id:5,
-    image:flowing_meditation,
+    image:yoga,
 
     title: "Yoga",
     desc: "The form of Yoga offered on this platform is the essence of the practices by many Yogis of different traditions. Yogi Vinu is experiencing the bliss of yoga from 22 years. To him Yoga is not just the moment of body, it is the conscious moment of body in alignment with mind and soul. That is what make yoga the ultimate union. Vinu and Soni spread the light of Hatha yoga in this world.",
@@ -56,7 +59,7 @@ const servicesData = [
   {
     id:7,
     title: "Seven Steps of Glory ",
-    image:flowing_meditation,
+    image:seven_steps_of_glory,
 
     desc: "“All of the things that you want come easily when you are in that vibration of love” – Abraham.  This technique is a powerful combination of Breathwork and visualization together for mystical manifestations and transformations in the mind, body and in the material world. Breathwork is the flow of prana (life force) in the body. It opens the channels for the vital energy to flow. It is one of the potent techniques for physical, mental and spiritual healing. It releases the deeper blocks in the body and mind at conscious and subconscious levels. Visualization is the process of creating the reality utilizing the power of mind.Being in the present moment - As human beings, our tendency is to ruminate about the past or worry about the future. Mindfulness is being present in the moment, paying attention to what you’re doing right now. To be fully conscious and tune into deeper realms, we need to be able to bring ourselves back to the present any time we remember to.",
   },
