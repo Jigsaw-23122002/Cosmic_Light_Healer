@@ -41,7 +41,7 @@
     "babel-plugin-twin": "^1.0.2",
     "postcss": "^8.1.10",
     "tailwindcss": "^2.2.2",
-    "twin.macro": "^2.5.0"
+    "twin.macro": "^3.3.0"
   },
   "babelMacros": {
     "twin": {
