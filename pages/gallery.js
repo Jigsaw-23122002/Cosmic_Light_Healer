@@ -14,6 +14,7 @@ import Img6 from "../public/img/6.jpg";
 import Img7 from "../public/img/7.jpg";
 import Img8 from "../public/img/8.jpg";
 import Img9 from "../public/img/9.jpg";
+import Img10 from "../public/img/10.jpg";
 
 function Gallery() {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,7 +22,7 @@ function Gallery() {
     setIsOpen(false);
   };
   const [image, setImage] = useState(null);
-  const arr = [Img1, Img2, Img3, Img4, Img5, Img6, Img7, Img8, Img9];
+  const arr = [Img1, Img2, Img3, Img4, Img5, Img6, Img7, Img8,Img10];
   return (
     <div className={`overflow-hidden`}>
       <FadeInSection>
